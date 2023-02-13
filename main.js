@@ -4,7 +4,6 @@ let txtContact = document.getElementById("txtContact");
 
 function ocultaTexto() {
   txtHome.hidden = false;
-  home.classList.add("select");
   txtAbout.hidden = true;
   txtContact.hidden = true;
 }

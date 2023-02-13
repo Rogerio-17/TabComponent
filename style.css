@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 0.9rem;
+  padding-left: 11%;
+  padding-right: 11%;
+  transition: 0.1s;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  background: rgb(173, 167, 167);
+  border-bottom: 3px solid rgb(116, 113, 113);
+  cursor: pointer;
+}
+
+#home {
+  background-image: url("img/home.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 2.2rem;
+  background-position-y: 0.7rem;
+}
+
+#about {
+  background-image: url("img/sobre.png");
+  background-size: 1.4rem;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 2.2rem;
+  background-position-y: 0.8rem;
+}
+
+#contact {
+  background-image: url("img/icons8-telefone-24.png");
+  background-size: 1.4rem;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 2.3rem;
+  background-position-y: 0.8rem;
+}
+
+li.select {
+  background: rgb(173, 167, 167);
+  border-bottom: 3px solid rgb(116, 113, 113);
+}
+
+ul {
+  width: 35rem;
+  margin: auto;
+}
+
+.principal {
+  min-width: 600px;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+  background: rgb(211, 210, 210);
+  margin: auto;
+}

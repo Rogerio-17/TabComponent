@@ -25,37 +25,13 @@ function remover() {
   txtContact.hidden = true;
 }
 
-function addSelect() {
-  let home = document.getElementById("home");
+function addSelect(tab, viewTxt) {
   remover();
-  if (home.className == "") {
-    home.classList.add("select");
+  if (tab.className == "") {
+    tab.classList.add("select");
   }
 
-  if (txtHome.hidden == true) {
-    txtHome.hidden = false;
-  }
-}
-
-function addSelect2() {
-  let about = document.getElementById("about");
-  remover();
-  if (about.className == "") {
-    about.classList.add("select");
-  }
-
-  if (txtAbout.hidden == true) {
-    txtAbout.hidden = false;
-  }
-}
-
-function addSelect3() {
-  let contact = document.getElementById("contact");
-  remover();
-  if (contact.className == "") {
-    contact.classList.add("select");
-  }
-  if (txtContact.hidden == true) {
-    txtContact.hidden = false;
+  if (viewTxt.hidden == true) {
+    viewTxt.hidden = false;
   }
 }

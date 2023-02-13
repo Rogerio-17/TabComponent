@@ -63,3 +63,19 @@ ul {
   background: rgb(211, 210, 210);
   margin: auto;
 }
+
+.textos {
+  width: 720px;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding: 8px;
+  text-align: center;
+}
+
+.textos span {
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
